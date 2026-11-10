@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetBot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>PetBot</h1>
+        <p>Assistente virtual do nosso Pet Shop</p>
+    </header>
+    <main>
+        <section class="chat">
+            <div class="mensagens" id="mensagens">
+                <div class="mensagem bot">
+                    Olá! Sou o PetBot!
+                    Como posso ajudar você?
+                </div>
+            </div>
+            <form id="formChat">
+                <input
+                    type="text" id="mensagem" placeholder="Digite sua mensagem..." autocomplete="off" required>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
